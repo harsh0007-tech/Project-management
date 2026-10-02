@@ -1,0 +1,11 @@
+RewriteEngine On
+Options -MultiViews
+DirectoryIndex index.html
+
+# Let real files and folders load normally.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Send application routes to the generated root document.
+RewriteRule ^ index.html [L]

@@ -1,0 +1,8 @@
+- [x] Add secure direct-messages table, grants, RLS, and realtime support.
+- [x] Add database message queries and send/read state for workspace chat.
+- [x] Add the dashboard chat section with member list and WhatsApp-style transcript.
+- [x] Show an unread-message badge on each teammate's name in the Messages list (live via realtime, cleared when the conversation is opened).
+- [x] Verify typecheck, lint, production build, and live dashboard rendering.
+- [x] Make the chat transcript scroll internally from oldest to newest message (bounded panel height).
+- [x] Fix sidebar role: workspace membership lookup now filters to the signed-in user.
+- [x] Show a popup when another workspace member sends a new direct message.
